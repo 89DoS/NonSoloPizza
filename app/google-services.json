@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "891595052208",
+    "firebase_url": "https://nsp1-1f4e6.firebaseio.com",
+    "project_id": "nsp1-1f4e6",
+    "storage_bucket": "nsp1-1f4e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891595052208:android:b54edcb21fe9cc10349775",
+        "android_client_info": {
+          "package_name": "com.example.nonsolopizzav1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891595052208-kfg5n062air25b9frdiv303gaecp0kpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nonsolopizzav1",
+            "certificate_hash": "b2ff512227272cfcaa817a9d6928c13cfad6ecc6"
+          }
+        },
+        {
+          "client_id": "891595052208-48qn2scid690ksojo5h1b9jksq1vabni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiqkJdzEvk0pJ6GKf1j3g0A2cNrhVYZ8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891595052208-48qn2scid690ksojo5h1b9jksq1vabni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
