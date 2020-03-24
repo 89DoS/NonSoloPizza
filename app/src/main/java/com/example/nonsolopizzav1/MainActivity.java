@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         fAuth = FirebaseAuth.getInstance();
         phoneNumber = findViewById(R.id.phone);
         codeEnter = findViewById(R.id.codeEnter);

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="casual"
+        android:text="PROFILO CLIENTE"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textColor="#5C3700"
+        android:textColorHint="#5C3700"/>
+    <EditText
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Cognome"
+        android:layout_below="@id/textView4"
+        android:inputType="textPersonName"
+        android:textColor="#5C3700"
+        android:textColorHint="#5C3700"/>
+    <EditText
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="indirizzo"
+        android:layout_below="@id/textView5"
+        android:inputType="textPersonName"
+        android:textColor="#5C3700"
+        android:textColorHint="#5C3700"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALVA"
+        android:layout_below="@id/textView6"
+        android:layout_marginTop="100dp"
+        android:layout_alignRight="@id/textView6"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="#5C3700"/>
+
+
+
+
+    </RelativeLayout>
