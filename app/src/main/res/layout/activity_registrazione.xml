@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrazione"
+    android:background="@drawable/farina1">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/nsp2"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="casual"
+        android:text="REGISTRAZIONE"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textColorHint="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textCursorDrawable="@android:color/holo_orange_light"
+        android:textIsSelectable="false"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@id/firstName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Cognome"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textColorHint="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textCursorDrawable="@android:color/holo_orange_light"
+        android:textIsSelectable="false"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@id/lastName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="città"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textColorHint="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textCursorDrawable="@android:color/holo_orange_light"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/address1"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@id/address"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="via"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textColorHint="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textCursorDrawable="@android:color/holo_orange_light"
+        android:textStyle="bold|italic" />
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALVA"
+        android:layout_below="@id/address"
+        android:layout_marginTop="100dp"
+        android:layout_alignRight="@id/address"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="#5C3700"/>
+
+</RelativeLayout>

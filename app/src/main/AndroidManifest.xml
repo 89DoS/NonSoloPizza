@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".HomeActivity">
+        <activity android:name=".Registrazione"></activity>
+        <activity android:name=".HomeActivity">
+
         </activity>
         <activity
             android:name=".MainActivity"
